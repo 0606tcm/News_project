@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="55dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:background="#08E7E7"
+        >
+        <TextView
+            android:id="@+id/text_v"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="7"
+            android:text="消息(200)"
+            android:textColor="#011010"
+            android:textSize="28sp"
+            android:layout_margin="2dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_search" />
+
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/add_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_margin="6dp"-->
+            <!--android:background="@drawable/icon_add"-->
+            <!--/>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:src="@drawable/fabu"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:text="发布"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="#FFFFFF"/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
